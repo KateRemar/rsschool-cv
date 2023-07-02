@@ -1,3 +1,1 @@
-first line 
-second line
-third line
+https://kateremar.github.io/rsschool-cv/cv
