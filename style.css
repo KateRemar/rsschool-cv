@@ -447,3 +447,59 @@ button{
     text-align: end;
     margin-top: 35px;
 }
+/* footer ------------------------------- */
+footer{
+    width: 1440px;
+    height: 250px;
+    background-color: #0C0C0E;
+    color: #FFFFFF;
+}
+.footer-box1{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+.footer-location{
+    width: 229px;
+    height: 40px;
+}
+.footer-ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 102px;
+    height: 24px;
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-time{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    gap: 10px;
+}
+.footer-underline{
+    width: 1400px;
+    border-top: #FFFFFF solid 1px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.footer-box2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+    height: 110px;
+}
