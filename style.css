@@ -328,7 +328,7 @@ button{
     margin-top: 40px;
 
 }
-.dessets{
+.coffee-dessets{
     justify-content: flex-end;
 }
 .coffee-text-box{
@@ -352,4 +352,98 @@ button{
     height: 1px;
     background-color: #BB945F;
     margin:0 59px;
+}
+/* section library card ----------------- */
+.section-library-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 614px;
+}
+.library-card-position{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px 0px 20px;
+}
+.library-card-find-main-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+.library-card-border{
+    width: 600px;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #BB945F solid 3px;
+}
+.library-card-button{
+    width: 242px;
+    height: 44px;
+    background-color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.library-card-find{
+    width: 600px;
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.library-card-box{
+    width: 560px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    background-color: #BB945F;
+    padding: 20px;
+}
+.library-card-input-size{
+    width: 520px;
+    height: 66px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: #BB945F;
+    font-family: 'Forum', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2%;
+}
+.library-card-text{
+    font-family: 'Forum', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 2%;
+}
+.library-card-reader-box{
+    width: 456px;
+    height: 253px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.library-card-read-text{
+    width: 456px;
+    height: 120px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: end;
+    margin-top: 35px;
 }
