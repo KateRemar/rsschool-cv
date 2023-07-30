@@ -18,6 +18,19 @@
     flex-direction: column;
     width: 1440px;
   }
+  h2{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-family: 'Forum', cursive;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
   /* header ------------------- */
   .head-box{
     height: 90px;
@@ -66,7 +79,7 @@
     height: 600px;
     margin: 0px;
     display: flex;
-    background-image: url("assets/Welcome.png");
+    background-image: url("asset/main/welcome/Welcome.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -100,15 +113,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-h2{
-    margin-top: 20px;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 40px;
-    letter-spacing: 2px;
-    font-family: 'Forum', cursive;
-    text-align: center;
 }
 .line{
     height: 1px;
