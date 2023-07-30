@@ -73,6 +73,14 @@ a{
     justify-content: flex-start;
     align-items: center;
 }
+button{
+    width: 70px;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    background-color: #FFFFFF;
+}
 /* section welcome ---------------------------- */
 .section-welcom{
     width: 1440px;
@@ -159,4 +167,112 @@ a{
     height: 16px;
     border-radius:100%;
     background-color: #0C0C0E;
+}
+/* section favorites ---------------------------- */
+.section-favorite{
+    width: 1440px;
+    height: 1439px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.favorite-text{
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    line-height: 40px;
+    margin-top: 40px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+}
+.favorite-radio-item{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    font-size: 20px;
+    line-height: 24.2px;
+    padding: 5px;
+    gap: 20px;
+    font-weight: 400;
+    position: relative;
+}
+.favorite-radio-box{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 90px;
+}
+.favorite-list{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.favorite-item{
+    width: 550px;
+    height: 555px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: #0C0C0E solid 2px ;
+}
+.favorite-text{
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 335px;
+    text-transform: capitalize;
+}
+.favorite-place{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.favorite-text-first{
+    font-family: 'Forum', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.favorite-text-second{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.favorite-underline{
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 60px;
+    border: #BB945F solid 1px;
+}
+.favorite-book-box{
+    height: 300px;
+    width: 200px;
+    margin-top: 275px;
+    margin-left: -160px;
+}
+.place-book{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
